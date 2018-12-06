@@ -1,6 +1,7 @@
 # upload_dsym_bugly
 fastlane  action to  upload ipa.dsym.zip to bugly
 
+```
 upload_dsym_to_bugly(
 	file_path: "./fastlane/development/<fileName>.app.dSYM.zip",
 	file_name: "<fileName>.app.dSYM.zip",
@@ -12,3 +13,4 @@ upload_dsym_to_bugly(
     product_version: "<app_version>",
 	channel: "<channel>"
 	)
+  ```
