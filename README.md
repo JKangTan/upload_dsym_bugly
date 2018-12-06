@@ -8,9 +8,9 @@ upload_dsym_to_bugly(
 	app_key: "<bugly_app_key>",
 	app_id: "<bugly_app_id>",
 	api_version: 1,
-    symbol_type: "2", # iOS => 2, Android => 1
-    bundle_id: "com.hsty.app",
-    product_version: "<app_version>",
+        symbol_type: "2", # iOS => 2, Android => 1
+        bundle_id: "com.hsty.app",
+        product_version: "<app_version>",
 	channel: "<channel>"
 	)
   ```
